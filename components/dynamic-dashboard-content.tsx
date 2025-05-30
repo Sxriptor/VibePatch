@@ -40,8 +40,8 @@ export function DynamicDashboardContent() {
   }
 
   return (
-    <div className="flex-1 h-[calc(100vh-4rem)] overflow-hidden">
+    <div className="flex-1 w-full h-[calc(100vh-4rem)] overflow-auto">
       {renderTabContent()}
     </div>
   )
-} 
+}

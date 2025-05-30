@@ -12,7 +12,7 @@ import { RecommendedResourcesCard } from "@/components/recommended-resources-car
 
 export function DashboardContent() {
   return (
-    <div className="flex-1 p-4 md:p-6 space-y-6 overflow-auto">
+    <div className="flex-1 p-4 md:p-6 space-y-6 w-full">
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold tracking-tight">Welcome back, John!</h1>
         <p className="text-muted-foreground">Continue your learning journey and track your progress.</p>
